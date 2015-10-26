@@ -1,6 +1,6 @@
 {
   "port": "3001",
   "db": {
-    "url": "postgres://user:pass@localhost:5432/dbname"
+    "url": "postgres://vagrant:vagrant@localhost:5432/pm2s"
   }
 }
