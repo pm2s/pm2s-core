@@ -29,6 +29,7 @@
     "should": "^7.1.1"
   },
   "dependencies": {
+    "nconf": "^0.8.2",
     "restify": "^4.0.3"
   }
 }
