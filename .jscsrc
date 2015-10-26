@@ -1,0 +1,18 @@
+{
+  "preset": "mdcs",
+  "disallowMultipleVarDecl": {
+    "allExcept": ["undefined"]
+  },
+  "requirePaddingNewlinesInBlocks": null,
+  "requireSpacesInsideBrackets": null,
+  "requireSpacesInsideParentheses": null,
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpaceBeforePostfixUnaryOperators": null
+}

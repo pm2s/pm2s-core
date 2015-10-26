@@ -1,0 +1,34 @@
+{
+  "name": "pm2s-core",
+  "version": "0.1.0",
+  "description": "REST API for pm2-slack integration",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run jscs && npm run unit",
+    "unit": "istanbul cover _mocha --dir ./coverage --report lcov -- -R spec --recursive ./test",
+    "jscs": "jscs ./src ./test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pm2s/pm2s-core.git"
+  },
+  "author": "s0ph1e <sonya1912@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pm2s/pm2s-core/issues"
+  },
+  "homepage": "https://github.com/pm2s/pm2s-core#readme",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "codeclimate-test-reporter": "^0.1.1",
+    "irm": "^0.2.1",
+    "istanbul": "^0.4.0",
+    "jscs": "^2.4.0",
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  },
+  "dependencies": {
+    "restify": "^4.0.3"
+  }
+}
