@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run jscs && npm run unit",
     "unit": "istanbul cover _mocha --dir ./coverage --report lcov -- -R spec --recursive ./test",
-    "jscs": "jscs ./src ./test",
+    "jscs": "jscs ./web ./test",
     "start": "node app.js"
   },
   "repository": {
