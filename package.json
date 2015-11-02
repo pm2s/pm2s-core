@@ -4,9 +4,6 @@
   "description": "REST API for pm2-slack integration",
   "main": "app.js",
   "scripts": {
-    "test": "npm run jscs && npm run unit",
-    "unit": "istanbul cover _mocha --dir ./coverage --report lcov -- -R spec --recursive ./test",
-    "jscs": "jscs ./web ./test ./etc/db/migrations",
     "start": "node app.js"
   },
   "repository": {

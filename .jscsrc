@@ -1,8 +1,6 @@
 {
   "preset": "mdcs",
-  "disallowMultipleVarDecl": {
-    "allExcept": ["undefined"]
-  },
+  "disallowMultipleVarDecl": "exceptUndefined",
   "requirePaddingNewlinesInBlocks": null,
   "requireSpacesInsideBrackets": null,
   "requireSpacesInsideParentheses": null,
