@@ -9,8 +9,11 @@ migrate-up:
 migrate-down:
 	node_modules/.bin/sequelize db:migrate:undo
 
+migration-create:
+	node_modules/.bin/sequelize migration:create --name=$(name)
+
 jscs:
-	node_modules/.bin/jscs ./web ./test ./etc/db/migrations;
+	node_modules/.bin/jscs ./web ./test ./etc/db/migrations
 
 start:
-	node app.js;
+	node app.js
