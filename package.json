@@ -21,14 +21,17 @@
     "codeclimate-test-reporter": "^0.1.1",
     "istanbul": "^0.4.0",
     "jscs": "^2.4.0",
+    "jshint": "^2.9.0",
     "mocha": "^2.3.3",
     "should": "^7.1.1"
   },
   "dependencies": {
+    "app-controller": "^0.3.0",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
     "nconf": "^0.8.2",
     "pg": "^4.4.3",
     "pg-hstore": "^2.3.2",
-    "restify": "^4.0.3",
     "sequelize": "^3.12.2",
     "sequelize-cli": "^2.0.0"
   }

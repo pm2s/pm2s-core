@@ -1,7 +1,7 @@
 .PHONY: test
 
 install:
-	npm install;
+	npm install
 
 migrate-up:
 	node_modules/.bin/sequelize db:migrate
@@ -13,7 +13,7 @@ migration-create:
 	node_modules/.bin/sequelize migration:create --name=$(name)
 
 jscs:
-	node_modules/.bin/jscs ./web ./test ./etc/db/migrations
+	node_modules/.bin/jscs ./src ./test
 
 start:
-	node app.js
+	node src/app.js
