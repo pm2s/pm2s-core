@@ -19,11 +19,16 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "codeclimate-test-reporter": "^0.1.1",
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-shell": "^0.5.1",
     "istanbul": "^0.4.0",
     "jscs": "^2.4.0",
     "jshint": "^2.9.0",
     "mocha": "^2.3.3",
-    "should": "^7.1.1"
+    "should": "^7.1.1",
+    "yargs": "^3.30.0"
   },
   "dependencies": {
     "app-controller": "^0.3.0",
