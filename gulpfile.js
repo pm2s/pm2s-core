@@ -27,4 +27,4 @@ gulp.task('jscs', function () {
 		.pipe(jscs.reporter('fail'));
 });
 
-gulp.task('test', ['jshint', 'jscs']);
+gulp.task('test', ['jscs']);
