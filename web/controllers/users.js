@@ -1,4 +1,4 @@
-var users = require('../../services/users');
+var users = require('./../../core/users');
 
 module.exports = {
 	create: users.create,
